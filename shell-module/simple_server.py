@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 HTTP_SERVER_PORT = 5000
 
-account_sid = 'AC1b5c5057ecf8a64542372f6fae83c02e'
-auth_token = 'dde1e1152ab937e5dfd13fe4fba401f1'
+account_sid = 'SID'
+auth_token = 'TOKEN'
 client = Client(account_sid, auth_token)
 
 @app.route('/')

@@ -9,8 +9,8 @@ class DishViewer(Cmd):
 
     def __init__(self):
         Cmd.__init__(self)
-        self.account_sid = 'AC1b5c5057ecf8a64542372f6fae83c02e'
-        self.auth_token = 'dde1e1152ab937e5dfd13fe4fba401f1'
+        self.account_sid = 'SID'
+        self.auth_token = 'TOKEN'
         self.client = Client(self.account_sid, self.auth_token)
         self.prompt = "\33[92m (autophone) > \033[0m"
         self.intro = twiml.shell_intro
